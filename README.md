@@ -48,24 +48,11 @@ My focus lies at the intersection of **backend engineering**, **applied AI**, an
 Full-stack messaging platform with **real-time chat**, **role-based access**, and **AI-assisted replies** powered by a RAG pipeline.  
 **Stack:** React, Node.js, PostgreSQL, Supabase, LangChain  
 
-#### **BrieflyQ**
+#### **Briefify**
 Chrome extension using **LangChain + Transformers** to summarize YouTube transcripts and extract key insights instantly.  
 **Stack:** FastAPI, Python, LangChain  
 
 > Explore all projects [here →](https://github.com/missusk?tab=repositories)
-
----
-
-### 📊 GitHub Overview(Public Contributions)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=missusk&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=missusk&layout=compact&theme=github_dark&hide_border=true" height="150" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=missusk&theme=github-dark&hide_border=true" height="150" />
-</p>
 
 ---
 
