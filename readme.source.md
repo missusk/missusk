@@ -40,10 +40,6 @@
 <span style={{ fontSize: 60, fontWeight: 700, color: '#fafafa', letterSpacing: -2.5, lineHeight: 1, marginBottom: 22 }}>maria khan</span>
 <span style={{ fontSize: 16, color: 'rgba(255,255,255,0.72)', fontFamily: 'monospace', lineHeight: 1.6, marginBottom: 2 }}>platform engineer</span>
 <span style={{ fontSize: 16, color: 'rgba(255,255,255,0.72)', fontFamily: 'monospace', lineHeight: 1.6 }}>rails, postgres, kubernetes</span>
-<div style={{ display: 'flex', alignItems: 'center', marginTop: 18 }}>
-<span style={{ fontSize: 13, color: 'rgba(217,105,83,0.85)', fontFamily: 'monospace' }}>{'> pune, india'}</span>
-<span id="h-cursor" style={{ fontSize: 13, color: 'rgba(217,105,83,0.85)', fontFamily: 'monospace', marginLeft: 1 }}>_</span>
-</div>
 </div>
 </div>
 ```
@@ -73,23 +69,27 @@
 <div style={{ display: 'flex', flexDirection: 'column', gap: 14, zIndex: 10 }}>
 <div style={{ display: 'flex', alignItems: 'flex-start' }}>
 <span style={{ color: '#d96953', fontSize: 18, marginRight: 16, fontFamily: 'monospace', lineHeight: 1.4, marginTop: -2 }}>·</span>
-<span style={{ fontSize: 16, color: 'rgba(255,255,255,0.82)', lineHeight: 1.45 }}>rails internals, mostly the boring infra bits</span>
+<span style={{ fontSize: 16, color: 'rgba(255,255,255,0.82)', lineHeight: 1.45 }}>distributed systems: replication, consensus, the gap between cap-theorem and the database you actually have</span>
 </div>
 <div style={{ display: 'flex', alignItems: 'flex-start' }}>
 <span style={{ color: '#d96953', fontSize: 18, marginRight: 16, fontFamily: 'monospace', lineHeight: 1.4, marginTop: -2 }}>·</span>
-<span style={{ fontSize: 16, color: 'rgba(255,255,255,0.82)', lineHeight: 1.45 }}>postgres at scale: lock contention, slow-query archaeology</span>
+<span style={{ fontSize: 16, color: 'rgba(255,255,255,0.82)', lineHeight: 1.45 }}>database internals: mvcc, write amplification, what acid buys you and what it doesn't</span>
 </div>
 <div style={{ display: 'flex', alignItems: 'flex-start' }}>
 <span style={{ color: '#d96953', fontSize: 18, marginRight: 16, fontFamily: 'monospace', lineHeight: 1.4, marginTop: -2 }}>·</span>
-<span style={{ fontSize: 16, color: 'rgba(255,255,255,0.82)', lineHeight: 1.45 }}>kubernetes plumbing: helm, autoscaling, dynamic config</span>
+<span style={{ fontSize: 16, color: 'rgba(255,255,255,0.82)', lineHeight: 1.45 }}>performance: microbench design, the gvl, where ruby surprises you under load</span>
 </div>
 <div style={{ display: 'flex', alignItems: 'flex-start' }}>
 <span style={{ color: '#d96953', fontSize: 18, marginRight: 16, fontFamily: 'monospace', lineHeight: 1.4, marginTop: -2 }}>·</span>
-<span style={{ fontSize: 16, color: 'rgba(255,255,255,0.82)', lineHeight: 1.45 }}>job systems, queue back-pressure, connection pools that don't lie to you</span>
+<span style={{ fontSize: 16, color: 'rgba(255,255,255,0.82)', lineHeight: 1.45 }}>observability that earns its budget: trace sampling, cardinality, slo math</span>
 </div>
 <div style={{ display: 'flex', alignItems: 'flex-start' }}>
 <span style={{ color: '#d96953', fontSize: 18, marginRight: 16, fontFamily: 'monospace', lineHeight: 1.4, marginTop: -2 }}>·</span>
-<span style={{ fontSize: 16, color: 'rgba(255,255,255,0.82)', lineHeight: 1.45 }}>observability that pays off in incidents, not just dashboards that exist</span>
+<span style={{ fontSize: 16, color: 'rgba(255,255,255,0.82)', lineHeight: 1.45 }}>systems thinking: blast radius, idempotency, queue back-pressure, retry semantics</span>
+</div>
+<div style={{ display: 'flex', alignItems: 'flex-start' }}>
+<span style={{ color: '#d96953', fontSize: 18, marginRight: 16, fontFamily: 'monospace', lineHeight: 1.4, marginTop: -2 }}>·</span>
+<span style={{ fontSize: 16, color: 'rgba(255,255,255,0.82)', lineHeight: 1.45 }}>writing technical things in public - postmortems, runbooks, learning out loud</span>
 </div>
 </div>
 </div>
@@ -133,17 +133,9 @@
 </div>
 ```
 
-```aura width=800 height=120
-<div style={{ position: 'relative', display: 'flex', alignItems: 'center', width: '100%', height: '100%', background: '#0e0e10', borderRadius: 16, overflow: 'hidden', padding: '0 56px' }}>
-<span style={{ fontSize: 13, color: 'rgba(255,255,255,0.4)', letterSpacing: 0.4, fontFamily: 'monospace' }}>blog →</span>
-<span style={{ fontSize: 13, color: '#d96953', marginLeft: 8, letterSpacing: 0.4, fontFamily: 'monospace' }}>runbookpages.com</span>
-<span style={{ fontSize: 13, color: 'rgba(255,255,255,0.4)', marginLeft: 18, letterSpacing: 0.3, fontFamily: 'monospace' }}>· longer notes on rails, postgres, k8s</span>
-</div>
-```
-
 ```aura width=140 height=44 link="https://github.com/missusk" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/github/ffffff"
+  icon="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg"
   text="GitHub"
   backgroundColor="#141414"
   width={140}
@@ -183,24 +175,6 @@
   text="LeetCode"
   backgroundColor="#0d0d0d"
   width={160}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '10%', color: '#111111' },
-    { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#d96953' },
-    { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#555555' },
-  ]}
-/>
-```
-
-```aura width=210 height=44 link="https://runbookpages.com" inline align=center
-<SocialMediaButton
-  icon="https://cdn.simpleicons.org/rss/d96953"
-  text="runbookpages.com"
-  backgroundColor="#141414"
-  width={210}
   height={44}
   gradientStops={[
     { offset: '0%', color: '#ffffff' },
