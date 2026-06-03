@@ -9,3 +9,15 @@
 <p align="center">
 <a href="https://github.com/missusk"><img src="./.github/assets/readme-aura-component-4-16a862cb.svg" width="140" height="44" /></a><a href="https://www.linkedin.com/in/khan-maria-"><img src="./.github/assets/readme-aura-component-5-48387ab8.svg" width="160" height="44" /></a><a href="https://leetcode.com/mariakhan/"><img src="./.github/assets/readme-aura-component-6-1e409934.svg" width="160" height="44" /></a>
 </p>
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=missusk&background=0e0e10&stroke=222222&ring=d96953&fire=d96953&currStreakLabel=d96953&sideLabels=ffffff&dates=888888&currStreakNum=ffffff&sideNums=ffffff&hide_border=true" width="495" alt="contribution streak" />
+</p>
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=missusk&bg_color=0e0e10&color=ffffff&line=d96953&point=4d8a8a&area=true&area_color=d96953&hide_border=true&custom_title=Contributions" width="800" alt="contribution graph" />
+</p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=missusk&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0e0e10&title_color=d96953&icon_color=4d8a8a&text_color=ffffff" alt="github stats" />
+</p>
